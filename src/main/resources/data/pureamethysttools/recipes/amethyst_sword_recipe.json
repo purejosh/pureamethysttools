@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "1": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pureamethysttools:amethyst_sword",
+    "count": 1
+  }
+}

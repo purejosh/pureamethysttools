@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "5": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "pureamethysttools:fragile_amethyst_armor_boots",
+    "count": 1
+  }
+}

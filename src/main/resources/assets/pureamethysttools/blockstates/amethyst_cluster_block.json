@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pureamethysttools:block/amethyst_cluster_block"
+    }
+  }
+}

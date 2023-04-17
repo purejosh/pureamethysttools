@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Amethyst Cluster Give Recipe",
+    "achievementDescription": "Give recipes for Amethyst when obtaining one shard or cluster. ",
+    "achievementIcon": {
+      "value": "Blocks.AMETHYST_CLUSTER"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "AmethystArmorHelmetRecipe",
+      "AmethystArmorBodyRecipe",
+      "AmethystArmorLeggingsRecipe",
+      "AmethystArmorBootsRecipe",
+      "AmethystPickaxeRecipe",
+      "AmethystAxeRecipe",
+      "AmethystSwordRecipe",
+      "AmethystShovelRecipe",
+      "AmethystHoeRecipe",
+      "AmethystClusterBlockRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"4\" y=\"71\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Blocks.AMETHYST_CLUSTER</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

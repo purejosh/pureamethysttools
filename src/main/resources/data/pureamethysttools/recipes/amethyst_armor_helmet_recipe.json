@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "1": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "2": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "3": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "5": {
+      "item": "minecraft:amethyst_cluster"
+    }
+  },
+  "result": {
+    "item": "pureamethysttools:amethyst_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "2": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "3": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "4": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "5": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "6": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "7": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "8": {
+      "item": "minecraft:amethyst_cluster"
+    }
+  },
+  "result": {
+    "item": "pureamethysttools:amethyst_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Amethyst Shard Give Recipe",
+    "achievementDescription": "Give recipes for Amethyst when obtaining one shard or cluster. ",
+    "achievementIcon": {
+      "value": "Items.AMETHYST_SHARD"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "FragileAmethystArmorHelmetRecipe",
+      "FragileAmethystArmorBodyRecipe",
+      "FragileAmethystArmorLeggingsRecipe",
+      "FragileAmethystArmorBootsRecipe",
+      "FragileAmethystPickaxeRecipe",
+      "FragileAmethystAxeRecipe",
+      "FragileAmethystSwordRecipe",
+      "FragileAmethystShovelRecipe",
+      "FragileAmethystHoeRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"44\" y=\"26\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.AMETHYST_SHARD</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

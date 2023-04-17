@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.purejosh.pureamethysttools.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"PureamethysttoolsModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

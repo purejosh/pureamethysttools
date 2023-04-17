@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "amethyst_give_recipe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "pureamethysttools:fragile_amethyst_armor_helmet_recipe",
+      "pureamethysttools:fragile_amethyst_armor_body_recipe",
+      "pureamethysttools:fragile_amethyst_armor_leggings_recipe",
+      "pureamethysttools:fragile_amethyst_armor_boots_recipe",
+      "pureamethysttools:fragile_amethyst_pickaxe_recipe",
+      "pureamethysttools:fragile_amethyst_axe_recipe",
+      "pureamethysttools:fragile_amethyst_sword_recipe",
+      "pureamethysttools:fragile_amethyst_shovel_recipe",
+      "pureamethysttools:fragile_amethyst_hoe_recipe"
+    ]
+  }
+}
