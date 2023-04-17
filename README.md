@@ -6,7 +6,7 @@ This mod is intended to be used alongside my other mods, which I'm calling "micr
 
 ## Download
 
-Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pure-amethyst-tools-fabric-forge).
+Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pure-amethyst-tools-fabric-forge) or [Modrinth](https://modrinth.com/mod/pure-amethyst-tools).
 
 ## Issues or Suggestions
 
