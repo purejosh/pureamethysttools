@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pureamethysttools:pure_amethyst_block"
+    }
+  ],
+  "result": {
+    "item": "pureamethysttools:pure_amethyst_gem",
+    "count": 9
+  }
+}

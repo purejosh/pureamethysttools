@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pureamethysttools:block/amethyst_cluster_block",
+    "up": "pureamethysttools:block/amethyst_cluster_block",
+    "north": "pureamethysttools:block/amethyst_cluster_block",
+    "east": "pureamethysttools:block/amethyst_cluster_block",
+    "south": "pureamethysttools:block/amethyst_cluster_block",
+    "west": "pureamethysttools:block/amethyst_cluster_block",
+    "particle": "pureamethysttools:block/amethyst_cluster_block"
+  },
+  "render_type": "solid"
+}

@@ -15,12 +15,10 @@ package net.purejosh.pureamethysttools;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.purejosh.pureamethysttools.init.PureamethysttoolsModProcedures;
 import net.purejosh.pureamethysttools.init.PureamethysttoolsModItems;
 import net.purejosh.pureamethysttools.init.PureamethysttoolsModBlocks;
 
-import net.minecraft.nbt.CompoundTag;
-
-import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.api.ModInitializer;
 
 public class PureamethysttoolsMod implements ModInitializer {
@@ -34,11 +32,7 @@ public class PureamethysttoolsMod implements ModInitializer {
 		PureamethysttoolsModBlocks.load();
 		PureamethysttoolsModItems.load();
 
-		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
-			if (handler.getPlayer().getExtraCustomData().getCompound("PlayerPersisted").isEmpty()) {
-				handler.getPlayer().getExtraCustomData().put("PlayerPersisted", new CompoundTag());
-			}
-			PureamethysttoolsMod.LOGGER.info(handler.getPlayer().getExtraCustomData());
-		});
+		PureamethysttoolsModProcedures.load();
+
 	}
 }

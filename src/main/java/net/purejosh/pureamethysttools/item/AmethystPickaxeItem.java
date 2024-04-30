@@ -1,40 +1,43 @@
 
 package net.purejosh.pureamethysttools.item;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
+
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class AmethystPickaxeItem extends PickaxeItem {
 	public AmethystPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1092;
+				return 184;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 6f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2.5f;
+				return 2f;
 			}
 
 			public int getLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
-				return 25;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Blocks.AMETHYST_CLUSTER));
+				return Ingredient.of(new ItemStack(Items.AMETHYST_SHARD));
 			}
-		}, 1, -2.7999999999999998f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.8f, new Item.Properties());
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(content -> content.accept(this));
 	}
 }

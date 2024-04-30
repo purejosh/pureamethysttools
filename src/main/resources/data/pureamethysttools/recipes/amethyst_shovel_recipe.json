@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "0",
     "1",
@@ -7,7 +8,7 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     },
     "1": {
       "item": "minecraft:stick"

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "pureamethysttools:items/amethyst_pickaxe"
+    "layer0": "pureamethysttools:item/amethyst_pickaxe"
   }
 }

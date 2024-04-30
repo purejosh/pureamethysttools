@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "012",
     "3 5",
@@ -7,25 +8,25 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     },
     "1": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     },
     "2": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     },
     "3": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     },
     "5": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     },
     "6": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     },
     "8": {
-      "item": "minecraft:amethyst_cluster"
+      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {

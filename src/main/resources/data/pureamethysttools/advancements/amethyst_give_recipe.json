@@ -20,15 +20,15 @@
   "rewards": {
     "experience": 0,
     "recipes": [
-      "pureamethysttools:fragile_amethyst_armor_helmet_recipe",
-      "pureamethysttools:fragile_amethyst_armor_body_recipe",
-      "pureamethysttools:fragile_amethyst_armor_leggings_recipe",
-      "pureamethysttools:fragile_amethyst_armor_boots_recipe",
-      "pureamethysttools:fragile_amethyst_pickaxe_recipe",
-      "pureamethysttools:fragile_amethyst_axe_recipe",
-      "pureamethysttools:fragile_amethyst_sword_recipe",
-      "pureamethysttools:fragile_amethyst_shovel_recipe",
-      "pureamethysttools:fragile_amethyst_hoe_recipe"
+      "pureamethysttools:amethyst_armor_helmet_recipe",
+      "pureamethysttools:amethyst_armor_chestplate_recipe",
+      "pureamethysttools:amethyst_armor_leggings_recipe",
+      "pureamethysttools:amethyst_armor_boots_recipe",
+      "pureamethysttools:amethyst_pickaxe_recipe",
+      "pureamethysttools:amethyst_axe_recipe",
+      "pureamethysttools:amethyst_sword_recipe",
+      "pureamethysttools:amethyst_shovel_recipe",
+      "pureamethysttools:amethyst_hoe_recipe"
     ]
   }
 }

@@ -1,46 +1,49 @@
 
 package net.purejosh.pureamethysttools.item;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
+import java.lang.reflect.Type;
+
 public abstract class AmethystArmorItem extends ArmorItem {
-	public AmethystArmorItem(EquipmentSlot slot, Item.Properties properties) {
+	public AmethystArmorItem(Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 22;
+			public int getDurabilityForType(Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 11;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{3, 5, 6, 3}[slot.getIndex()];
+			public int getDefenseForType(Type type) {
+				return new int[]{2, 5, 6, 2}[type.getSlot().getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 30;
+				return 9;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return SoundEvents.AMETHYST_BLOCK_STEP;
+				return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.amethyst_block.step"));
 			}
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Blocks.AMETHYST_CLUSTER));
+				return Ingredient.of(new ItemStack(Items.AMETHYST_SHARD));
 			}
 
 			@Environment(EnvType.CLIENT)
@@ -51,20 +54,20 @@ public abstract class AmethystArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 1f;
+				return 0f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
 				return 0f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Helmet extends AmethystArmorItem {
-
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(Type.HELMET, new Item.Properties());
+			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 		}
 
 	}
@@ -72,7 +75,8 @@ public abstract class AmethystArmorItem extends ArmorItem {
 	public static class Chestplate extends AmethystArmorItem {
 
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(Type.CHESTPLATE, new Item.Properties());
+			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 		}
 
 	}
@@ -80,7 +84,8 @@ public abstract class AmethystArmorItem extends ArmorItem {
 	public static class Leggings extends AmethystArmorItem {
 
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(Type.LEGGINGS, new Item.Properties());
+			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 		}
 
 	}
@@ -88,7 +93,8 @@ public abstract class AmethystArmorItem extends ArmorItem {
 	public static class Boots extends AmethystArmorItem {
 
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(Type.BOOTS, new Item.Properties());
+			ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 		}
 
 	}

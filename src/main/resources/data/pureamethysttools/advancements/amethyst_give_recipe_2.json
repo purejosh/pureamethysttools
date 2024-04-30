@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "minecraft:amethyst_cluster"
+              "pureamethysttools:pure_amethyst_gem"
             ],
             "count": {
               "min": 1,
@@ -20,16 +20,16 @@
   "rewards": {
     "experience": 0,
     "recipes": [
-      "pureamethysttools:amethyst_armor_helmet_recipe",
-      "pureamethysttools:amethyst_armor_body_recipe",
-      "pureamethysttools:amethyst_armor_leggings_recipe",
-      "pureamethysttools:amethyst_armor_boots_recipe",
-      "pureamethysttools:amethyst_pickaxe_recipe",
-      "pureamethysttools:amethyst_axe_recipe",
-      "pureamethysttools:amethyst_sword_recipe",
-      "pureamethysttools:amethyst_shovel_recipe",
-      "pureamethysttools:amethyst_hoe_recipe",
-      "pureamethysttools:amethyst_cluster_block_recipe"
+      "pureamethysttools:pure_amethyst_armor_helmet_recipe",
+      "pureamethysttools:pure_amethyst_armor_chestplate_recipe",
+      "pureamethysttools:pure_amethyst_armor_leggings_recipe",
+      "pureamethysttools:pure_amethyst_armor_boots_recipe",
+      "pureamethysttools:pure_amethyst_axe_recipe",
+      "pureamethysttools:pure_amethyst_hoe_recipe",
+      "pureamethysttools:pure_amethyst_pickaxe_recipe",
+      "pureamethysttools:pure_amethyst_shovel_recipe",
+      "pureamethysttools:pure_amethyst_sword_recipe",
+      "pureamethysttools:pure_amethyst_block_recipe"
     ]
   }
 }
