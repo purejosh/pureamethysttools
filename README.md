@@ -8,11 +8,11 @@ Get the latest download for your mod loader at [CurseForge](https://www.cursefor
 
 ## Issues or Suggestions
 
-Please open an issue in Github, and choose [Bug](https://github.com/purejosh/pureamethysttools/issues) or [Suggestion](https://github.com/purejosh/pureamethysttools/issues).
+Please open an issue in GitHub, and choose [Bug](https://github.com/purejosh/pureamethysttools/issues) or [Suggestion](https://github.com/purejosh/pureamethysttools/issues).
 
 ## Need help? 
 
-Please join our [Discord](https://discord.com/invite/X6AsDnqex6) for any additional assistance.
+Please join our [Discord](https://discord.gg/X6AsDnqex6) for any additional assistance.
 
 ## License
-[MIT-R-NR](https://github.com/purejosh/pureamethysttools/blob/main/LICENSE.txt)
+[MIT-R-NR](https://github.com/purejosh/pureamethysttools/blob/1.21/LICENSE)

@@ -1,11 +1,14 @@
 ---
 name: Suggestion
 about: Suggest an idea for this mod.
-title: "[Suggestion]"
+title: "[Suggestion] "
 labels: enhancement
 assignees: purejosh
 
 ---
 
-**Describe your proposed suggestion.**
-A clear and concise description of what additions or changes you would like to see to this mod.
+**Describe your proposed suggestion**
+What idea do you have for this mod?
+
+**How would -you- go about implementing it?**
+Explain how you would implement the idea.

@@ -7,11 +7,11 @@ assignees: purejosh
 
 ---
 
-**Describe the bug**
+**What's the bug?**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**How can I reproduce the bug?**
+Steps to reproduce the behavior, if it helps explain the bug.
 1. 
 2. 
 3. 
@@ -26,5 +26,5 @@ Loader version:
 Mod version: 
 Mod list: 
 
-**Additional context**
-Add any other context about the problem here.
+**Provide some logs**
+Provide your latest.log file, or crash report.

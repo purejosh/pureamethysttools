@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pureamethysttools:block/pure_amethyst_block"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "pureamethysttools:pure_amethyst"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureamethysttools:pure_amethyst_shovel"
+  }
+}

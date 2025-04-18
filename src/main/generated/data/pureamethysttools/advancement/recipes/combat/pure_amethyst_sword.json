@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pure_amethyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureamethysttools:pure_amethyst"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pureamethysttools:pure_amethyst_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pure_amethyst"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureamethysttools:pure_amethyst_sword"
+    ]
+  }
+}

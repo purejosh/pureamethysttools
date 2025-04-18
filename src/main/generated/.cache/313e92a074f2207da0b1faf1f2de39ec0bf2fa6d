@@ -1,0 +1,18 @@
+// 1.21	2025-04-18T13:48:52.6250748	Pure Amethyst Tools/Tags for minecraft:item
+4d0de193b400fed6407a17289dc42e1b9875bea1 data\minecraft\tags\item\pickaxes.json
+d82b2c8d69f95f07c319492a8abfab25a0093725 data\c\tags\item\tools\melee_weapon.json
+84ca5658eedfda8f1aaff76662142ee768da33d5 data\minecraft\tags\item\head_armor.json
+ee6aeb8aad905e82fda94494b5ad64315b54053d data\c\tags\item\gems.json
+bb4c302c93e641387839a4994d9b473ac26fb34d data\minecraft\tags\item\chest_armor.json
+6280fffcae9ecaef4d592a721c58432f648f4459 data\c\tags\item\tools.json
+fceab8b73335fb74604e48c48a8f295dd35ebd9c data\minecraft\tags\item\foot_armor.json
+53c4e17f8200472eb1860ba8644d1a7fa8db3355 data\c\tags\item\armors.json
+4d0de193b400fed6407a17289dc42e1b9875bea1 data\c\tags\item\tools\mining_tool.json
+26c5900f104d3305f8d3657f8216109f7287d464 data\minecraft\tags\item\swords.json
+dd3b3f17e6bfb30c72b2158e1c3c5c48b1061c69 data\minecraft\tags\item\leg_armor.json
+924823afca076bae72e0e29c448f5c0252ca7515 data\minecraft\tags\item\hoes.json
+ee6aeb8aad905e82fda94494b5ad64315b54053d data\c\tags\item\gems\amethyst.json
+a8e9491a4782e1ab4747e6a1b89e63fbf68b4043 data\minecraft\tags\item\axes.json
+ee6aeb8aad905e82fda94494b5ad64315b54053d data\minecraft\tags\item\beacon_payment_items.json
+2cf7719d8b754fd5b70e3490515272bdfb5a5caa data\c\tags\item\dusts.json
+67daa5ea525609dc0823b9f7f9e2c20cc6a85223 data\minecraft\tags\item\shovels.json

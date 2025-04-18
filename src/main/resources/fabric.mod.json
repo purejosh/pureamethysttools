@@ -1,34 +1,45 @@
 {
-  "schemaVersion": 1,
-  "id": "pureamethysttools",
-  "version": "2.0.1",
-  "name": "Pure Amethyst Tools",
-  "description": "A unique take on amethyst armor and tools, that just may fit your vibe.",
-  "authors": [
-    "purejosh"
-  ],
-  "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pure-amethyst-tools-fabric-forge",
-    "sources": ""
-  },
-  "license": "Custom license",
-  "icon": "assets/pureamethysttools/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.purejosh.pureamethysttools.PureamethysttoolsMod"
-    ],
-    "client": [
-      "net.purejosh.pureamethysttools.ClientInit"
-    ]
-  },
-  "depends": {
-    "fabricloader": ">=0.14.21",
-    "fabric": "*",
-    "minecraft": "~1.20",
-    "java": ">=17"
-  },
-  "mixins": [
-    "pureamethysttools.mixins.json"
-  ]
+	"schemaVersion": 1,
+	"id": "pureamethysttools",
+	"version": "3.0.0",
+	"name": "Pure Amethyst Tools",
+	"description": "A unique take on amethyst armor and tools, that just may fit your vibe.",
+	"authors": [
+		"purejosh"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/pureamethysttools",
+		"sources": "https://github.com/purejosh/pureamethysttools",
+		"issues": "https://github.com/purejosh/pureamethysttools/issues"
+	},
+	"license": "MIT-R-NR",
+	"icon": "assets/pureamethysttools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.purejosh.pureamethysttools.PureAmethystTools"
+		],
+		"client": [
+			"net.purejosh.pureamethysttools.PureAmethystToolsClient"
+		],
+		"fabric-datagen": [
+			"net.purejosh.pureamethysttools.PureAmethystToolsDataGenerator"
+		]
+	},
+	"mixins": [
+		"pureamethysttools.mixins.json",
+		{
+			"config": "pureamethysttools.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.21 <=1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }

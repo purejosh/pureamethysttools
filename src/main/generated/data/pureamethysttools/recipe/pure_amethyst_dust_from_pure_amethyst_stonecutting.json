@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "pureamethysttools:pure_amethyst"
+  },
+  "result": {
+    "count": 4,
+    "id": "pureamethysttools:pure_amethyst_dust"
+  }
+}

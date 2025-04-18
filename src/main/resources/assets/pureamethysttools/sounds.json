@@ -1,0 +1,13 @@
+{
+  "item.armor.equip_amethyst": {
+    "sounds": [
+      "pureamethysttools:item/armor/equip_amethyst1",
+      "pureamethysttools:item/armor/equip_amethyst2",
+      "pureamethysttools:item/armor/equip_amethyst3",
+      "pureamethysttools:item/armor/equip_amethyst4",
+      "pureamethysttools:item/armor/equip_amethyst5",
+      "pureamethysttools:item/armor/equip_amethyst6"
+    ],
+    "subtitle": "subtitles.pureamethysttools.armor.equip_amethyst"
+  }
+}
